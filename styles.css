@@ -55,6 +55,10 @@ button:hover { /* Hover: Poner el raton encima del boton */
     border: 1px solid grey;
 }
 
+.pelicula img {
+    width: 30%;
+}
+
 #mensaje {
     text-align: center;
 }
