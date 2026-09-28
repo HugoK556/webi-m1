@@ -1,4 +1,4 @@
-
+// MISION 1 - EL DESPERTAR DEL DOM / HUGO COBOS GUTIERREZ INSO3ºB
 const buscador = document.querySelector("#buscador");
 const peliculas = document.querySelectorAll(".pelicula");
 const botonesComprar = document.querySelectorAll(".comprar");
@@ -85,8 +85,17 @@ for (const boton of botonesComprar) { // Recorre todos los botones de comprar
 // VACIAR CARRITO
 botonVaciar.addEventListener("click", function () {
 
-    numeroPeliculas = 0; // Pone el número de peliculas a cero
+    numeroPeliculas = 0; // Pone el numero de peliculas a cero
     cantidad.textContent = numeroPeliculas; // Actualiza el numero
     mensaje.textContent = "El carrito está vacío."; // Mensaje
+
+});
+
+// MODO OSCURO
+document.addEventListener("keydown", function (event) {
+    
+    if (event.key === "ñ" || event.key === "Ñ") { // Si se pulsa la letra ñ
+        document.body.classList.toggle("oscuro"); // Añade o quita la clase "oscuro"
+    }
 
 });

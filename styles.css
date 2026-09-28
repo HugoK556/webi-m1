@@ -1,4 +1,4 @@
-
+/* MISION 1 - EL DESPERTAR DEL DOM / HUGO COBOS GUTIERREZ INSO3ºB */
 body {
     margin: 0; /* Quita el margen */
     background-color: whitesmoke; /* Color de fondo */
@@ -81,4 +81,23 @@ footer {
 /* Si una pelicula esta en oculto se oculta */
 .pelicula.oculto {
     display: none;
+}
+
+/* MODO OSCURO */
+/* Simplemente cambio los colores */
+body.oscuro {
+    background-color: #222222;
+    color: white;
+}
+
+body.oscuro .inicio,
+body.oscuro .pelicula,
+body.oscuro #carrito {
+    background-color: #333333;
+    color: white;
+}
+
+body.oscuro input {
+    background-color: #444444;
+    color: white;
 }
