@@ -1,0 +1,75 @@
+
+body {
+    margin: 0; /* Quita el margen */
+    background-color: whitesmoke; /* Color de fondo */
+}
+
+header {
+    background-color: #222222;
+    color: white; /* Texto blanco */
+    text-align: center; /* Texto centrado */
+    padding: 15px; /* Mas espacio  interior*/
+}
+
+main {
+    width: 80%; /* Lo que ocupa de espacio */
+    margin: 30px auto; /* Margen arriba, abajo y que este centrado (auto) */
+}
+
+.inicio {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid grey; /* Borde gris de 1px */
+}
+
+input {
+    padding: 5px; /* Espacio interior */
+    margin: 10px; /* Espacio exterior */
+}
+
+button {
+    padding: 10px 15px;
+    border: none; /* Quita el borde */
+    cursor: pointer; /* Cambia el estilo del raton */
+    background-color: #222222;
+    color: white;
+    margin: 5px;
+}
+
+button:hover { /* Hover: Poner el raton encima del boton */
+    background-color: gray;
+}
+
+.peliculas {
+    display: grid; /* Organiza como una cuadricula */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px; /* Espacio entre las películas */
+}
+
+.pelicula {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+#mensaje {
+    text-align: center;
+}
+
+#carrito {
+    background-color: white;
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
