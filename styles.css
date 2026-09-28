@@ -73,3 +73,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Si una pelicula esta en oculto se oculta */
+.pelicula.oculto {
+    display: none;
+}
