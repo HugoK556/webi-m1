@@ -87,7 +87,7 @@ botonVaciar.addEventListener("click", function () {
 
     numeroPeliculas = 0; // Pone el numero de peliculas a cero
     cantidad.textContent = numeroPeliculas; // Actualiza el numero
-    mensaje.textContent = "El carrito está vacío."; // Mensaje
+    mensaje.textContent = "El carrito esta vacío."; // Mensaje
 
 });
 
